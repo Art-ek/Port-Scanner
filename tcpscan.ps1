@@ -3,7 +3,7 @@ echo "==================================================================="
 echo "A Simple port test script with a pseudo OS detection" 
 echo "You can detect OS, only if you have permission to remote OS :)"
 echo "Bonus, FTP weak password check function added "
-echo "USAGE:Just change ports range and endpoint to scan your own network "
+echo "USAGE:Just change the ports range variable and endpoint IP addresses to scan your own network "
 echo "==================================================================="
 
 $ports=@(135,21,80)
@@ -152,9 +152,9 @@ function weak_ftp_pass{
         }
     
     }echo ""
-     echo "======= FTB BANNER START ==========="
+     echo "======= FTP BANNER START ==========="
      echo "$message"
-     echo "======= FTB BANNER END ==========="
+     echo "======= FTP BANNER END ==========="
      echo ""
 
 
